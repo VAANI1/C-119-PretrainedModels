@@ -1,0 +1,33 @@
+body {
+    background-color: burlywood;
+}
+
+h1{
+    color: black;
+    background-color: aliceblue;
+    padding-top: 5px;
+}
+
+#show_sketch{
+    float: right;    
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;    
+}
+
+canvas{
+    border: 5px solid grey;
+    border-radius: 20px;
+    margin-top: 70px;
+    animation-name: vaani;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes vaani{
+    from{box-shadow: 1px 1px 38px grey;}
+    to{box-shadow: 1px 1px 38px black ;}
+}
